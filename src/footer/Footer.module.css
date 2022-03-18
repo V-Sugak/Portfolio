@@ -1,0 +1,21 @@
+.footerBlock {
+    background-color: skyblue;
+    height: 30vh;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    margin: 10px;
+}

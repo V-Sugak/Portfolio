@@ -7,7 +7,7 @@ import {Project} from "./Project";
 export const Projects = () => {
     return <div className={style.projectsBlock}>
         <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-            <h2 className={style.title}>My works</h2>
+            <h2 className={style.title}>My projects</h2>
             <div className={style.projects}>
                 <Project title={'Social Network'}
                          description={'It is the most biggest project which I refresh every month and learning new technologies. It helps me to be in trends.'}/>

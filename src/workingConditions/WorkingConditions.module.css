@@ -6,7 +6,7 @@
 .workingConditionsContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .title {
@@ -15,4 +15,5 @@
 
 .button {
     background-color: lightgray;
+    padding: 20px;
 }
