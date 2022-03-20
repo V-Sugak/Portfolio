@@ -1,0 +1,20 @@
+.project {
+    background-color: lightgray;
+    width: 250px;
+    text-align: center;
+}
+
+.buttonContainer {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://simg.nicepng.com/png/small/826-8263562_the-react-logo-react-js-logo-svg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.descriptionContainer {
+    padding: 10px;
+}

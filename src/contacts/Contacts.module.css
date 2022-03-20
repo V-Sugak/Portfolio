@@ -1,5 +1,4 @@
 .contactsBlock {
-    height: 100vh;
     background-color: darksalmon;
 }
 
@@ -12,13 +11,17 @@
 .contacts {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    height:220px;
+    justify-content: space-between;
+    height: 220px;
     flex-wrap: wrap;
 }
 
-.button{
+.button {
     background-color: #bcdce8;
     padding: 20px;
     margin: 20px;
+}
+
+.title {
+    background-color: slategray;
 }

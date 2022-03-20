@@ -14,6 +14,9 @@ export const Skills = () => {
                 <Skill title={'Redux'} description={'JavaScript library for managing application state.'}/>
                 <Skill title={'React'}
                        description={'JavaScript library for building user interfaces or UI components.'}/>
+                <Skill title={'React'}
+                       description={'JavaScript library for building user interfaces or UI components.'}/>
+
             </div>
         </div>
     </div>

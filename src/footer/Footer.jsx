@@ -5,7 +5,7 @@ import styleContainer from "../common/styles/Container.module.css";
 
 export const Footer = () => {
     return <div className={style.footerBlock}>
-        <div className={`${styleContainer.container}  ${style.skillsContainer}`}>
+        <div className={`${styleContainer.container}  ${style.footerContainer}`}>
             <div className={style.icons}>
                 <div className={style.icon}></div>
                 <div className={style.icon}></div>
