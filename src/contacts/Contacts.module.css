@@ -9,19 +9,22 @@
 }
 
 .contacts {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 220px;
     flex-wrap: wrap;
+}
+
+.contacts input, .contacts textarea {
+    width: 100%;
 }
 
 .button {
     background-color: #bcdce8;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px 20px;
 }
 
 .title {
-    background-color: slategray;
+
 }

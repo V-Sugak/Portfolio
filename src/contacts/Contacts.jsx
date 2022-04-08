@@ -10,8 +10,9 @@ export const Contacts = () => {
                 <input type="text" placeholder={'Email'}/>
                 <input type="text" placeholder={'Name'}/>
                 <textarea name="" id="" cols="30" rows="10" placeholder={'Enter your message'}></textarea>
+                <button type={'submit'} className={style.button}>Send message</button>
             </form>
-            <div className={style.button}>Send message</div>
+
         </div>
     </div>
 }
