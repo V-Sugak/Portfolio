@@ -1,7 +1,8 @@
 .project {
-    background-color: lightgray;
+    background-color: #1c1d24;
     width: 250px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .buttonContainer {
@@ -17,4 +18,11 @@
 
 .descriptionContainer {
     padding: 10px;
+}
+
+.title{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    line-height: 1.2;
 }
