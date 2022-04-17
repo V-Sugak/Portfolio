@@ -6,23 +6,34 @@
 }
 
 .buttonContainer {
-    height: 250px;
+    height: 280px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://simg.nicepng.com/png/small/826-8263562_the-react-logo-react-js-logo-svg.png");
+    background-image: url("https://www.pinclipart.com/picdir/big/66-669662_sharpen-your-biology-class-12-term-2-clipart.png");
     background-size: cover;
     background-position: center;
+}
+
+
+.btn {
+    background: #dc965a;
+    color: #fff;
+    padding: 0 25px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .descriptionContainer {
     padding: 10px;
 }
 
-.title{
+.title {
     color: #fff;
     margin-bottom: 15px;
     font-size: 1.25rem;
     line-height: 1.2;
 }
+

@@ -16,8 +16,6 @@ export const Projects = () => {
                          description={'This project uses modern libraries, their logic and practical application. And Redux-toolkit contains the best practices of all React developers. This project demonstrates redux-toolkit and its strict limitations.'}/>
                 <Project title={'Todo List'}
                          description={'This project uses modern libraries, their logic and practical application. And Redux-toolkit contains the best practices of all React developers. This project demonstrates redux-toolkit and its strict limitations.'}/>
-                <Project title={'Todo List'}
-                         description={'This project uses modern libraries, their logic and practical application. And Redux-toolkit contains the best practices of all React developers. This project demonstrates redux-toolkit and its strict limitations.'}/>
             </div>
         </div>
     </div>
