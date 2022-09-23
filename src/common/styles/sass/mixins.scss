@@ -1,0 +1,55 @@
+@import "./variables";
+
+@mixin buttonContainer($height) {
+  height: $height;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn($lineHeight) {
+  line-height: $lineHeight;
+  background: $bgButtonColor;
+  opacity: 0.6;
+  padding: 0 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  color: $titleTextColor;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  transition: 1s;
+}
+
+@mixin btn1() {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -100px;
+  width: 10px;
+  height: 100%;
+  background-color: white;
+  filter: blur(5px);
+  transform: skew(-30deg);
+}
+
+@mixin btn2() {
+  left: calc(100% + 150px);
+  transition: 1s;
+}
+
+@mixin btn3() {
+  left: calc(100% + 100px);
+  transition: 1s 0.5s;
+}
+
+@mixin btn4() {
+  opacity: 1;
+  cursor: pointer;
+  outline: none;
+}

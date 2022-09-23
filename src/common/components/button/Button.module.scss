@@ -1,0 +1,27 @@
+@import "../../styles/sass/variables";
+@import "../../styles/sass/mixins";
+
+.buttonContainer {
+  @include buttonContainer(150px);
+
+  .btn {
+    @include btn(40px);
+
+    &::before,
+    &::after {
+      @include btn1();
+    }
+
+    &:hover::before, &:focus::before {
+      @include btn2();
+    }
+
+    &:hover::after, &:focus::after {
+      @include btn3();
+    }
+
+    &:focus, &:hover {
+      @include btn4();
+    }
+  }
+}

@@ -10,8 +10,8 @@ export const Project = (props) => {
         </div>
         <div className={style.descriptionContainer}>
             <Title2 title={props.title}/>
-            <p className={style.description}>
-                <div>{props.description}</div>
+            <p>
+                <div className={style.description}>{props.description}</div>
                 <div className={style.link}>
                     <a href="">Github</a>
                 </div>

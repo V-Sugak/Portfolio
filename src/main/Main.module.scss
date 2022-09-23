@@ -1,0 +1,48 @@
+@import "../common/styles/sass/variables.scss";
+
+.mainBlock {
+  padding: 80px 0;
+  background: $bgColor;
+  min-height: 100vh;
+  flex-wrap: wrap;
+
+  .mainContainer {
+    .photoContainer {
+      .photo {
+        width: 400px;
+        height: 560px;
+        border: 12px solid $bgSecondColor;
+      }
+    }
+
+    .descriptionContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .titleContainer {
+        .title {
+          font-size: 50px;
+          color: $titleTextColor;
+          font-weight: 800;
+          line-height: 1;
+        }
+
+        .text {
+          color: $primaryTextColor;
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

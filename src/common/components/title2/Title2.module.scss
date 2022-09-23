@@ -1,0 +1,9 @@
+@import "../../styles/sass/variables";
+
+.title {
+  color: $titleTextColor;
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-align: center;
+}
