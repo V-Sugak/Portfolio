@@ -1,14 +1,22 @@
 import React from "react";
-import style from "./Project.module.css"
+import style from "./Project.module.scss"
+import {Title2} from "../../common/components/title2/Title2";
 
 export const Project = (props) => {
+
     return <div className={style.project}>
         <div className={style.buttonContainer}>
-                <button className={style.btn}>Watch</button>
+            <a className={style.btn} href="">Watch</a>
         </div>
         <div className={style.descriptionContainer}>
-            <h5 className={style.title}>{props.title}</h5>
-            <p>{props.description}</p>
+            <Title2 title={props.title}/>
+            <p className={style.description}>
+                <div>{props.description}</div>
+                <div className={style.link}>
+                    <a href="">Github</a>
+                </div>
+
+            </p>
         </div>
     </div>
 }

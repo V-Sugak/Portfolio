@@ -28,3 +28,9 @@
 .title {
 
 }
+
+@media screen and (max-width: 600px) {
+    .contacts {
+        width: 100%;
+    }
+}

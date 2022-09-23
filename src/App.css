@@ -1,9 +1,7 @@
 .App {
     font-family: 'Nunito', sans-serif;
-    color: #5e6472;
+    color: rgb(135, 142, 153);
     line-height: 1.7;
     font-size: 16px;
     font-weight: 400;
-    margin: 0;
-    padding: 0;
 }
