@@ -1,0 +1,26 @@
+@import "../common/styles/sass/variables";
+
+.nav {
+  /*border: 1px solid;*/
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+
+  .active {
+    color: $primaryTextColor;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: $titleTextColor;
+
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 700;
+
+    cursor: pointer;
+  }
+}

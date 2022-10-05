@@ -1,0 +1,36 @@
+@import "../common/styles/sass/variables.scss";
+
+.workingConditionsBlock {
+  padding: 120px 0;
+  background-color: $bgSecondColor;
+}
+
+.workingConditionsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ /* border: 1px solid;*/
+}
+
+/*.title {
+    background-color: lightgray;
+}*/
+
+
+.title {
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  font-size: 45px;
+  color: $titleTextColor;
+  font-weight: 800;
+  line-height: 1.2;
+  position: relative;
+
+  @media screen and (max-width: 722px) {
+    font-size: 40px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+}

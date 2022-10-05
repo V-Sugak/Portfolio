@@ -1,4 +1,4 @@
-import style from "./Footer.module.css";
+import style from "./Footer.module.scss";
 import React from "react";
 import styleContainer from "../common/styles/Container.module.css";
 

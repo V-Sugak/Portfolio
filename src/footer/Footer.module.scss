@@ -1,6 +1,8 @@
+@import "../common/styles/sass/variables.scss";
+
 .footerBlock {
-    background-color: skyblue;
-    height: 30vh;
+    background-color: $bgSecondColor;
+    height: 20vh;
 }
 
 .footerContainer {
