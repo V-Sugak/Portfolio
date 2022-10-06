@@ -12,7 +12,7 @@ export const Footer = () => {
                 <div className={style.icon}></div>
             </div>
             <div>
-                © 2021. All rights reserved by Sugak Viktoryia
+                © 2022 All rights reserved
             </div>
         </div>
     </div>
