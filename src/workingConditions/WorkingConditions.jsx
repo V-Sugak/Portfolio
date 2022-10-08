@@ -7,8 +7,10 @@ import {Button} from "../common/components/button/Button";
 export const WorkingConditions = () => {
     return <div className={style.workingConditionsBlock}>
         <div className={`${styleContainer.container}  ${style.workingConditionsContainer}`}>
-            <Title title={"Considering options for remote work"}/>
-            <Button title={"Hire me"}/>
+            <div><Title title={"Considering options for remote work"}/></div>
+            <div className={style.button}><Button title={"Hire me"}/></div>
+
+
         </div>
     </div>
 }

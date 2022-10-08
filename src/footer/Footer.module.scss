@@ -1,23 +1,23 @@
 @import "../common/styles/sass/variables.scss";
 
 .footerBlock {
-    background-color: $bgSecondColor;
-    height: 20vh;
-}
+  background-color: $bgSecondColor;
 
-.footerContainer {
+  .footerContainer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-}
+    align-items: center;
 
-.icons {
-    display: flex;
-}
+    .icons {
+      display: flex;
+      margin-top: 40px;
 
-.icon {
-    width: 60px;
-    height: 60px;
-    background-color: yellow;
-    margin: 10px;
+      .icon {
+        & img {
+          padding: 0 5px;
+        }
+
+      }
+    }
+  }
 }

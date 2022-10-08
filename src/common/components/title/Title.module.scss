@@ -8,6 +8,22 @@
   font-weight: 800;
   line-height: 1.2;
   position: relative;
+  @media screen and (max-width: 722px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 603px) {
+    font-size: 35px;
+  }
+  @media screen and (max-width: 517px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 432px) {
+    font-size: 25px;
+  }
+  @media screen and (max-width: 344px) {
+    font-size: 20px;
+  }
+
 
   &::after {
     content: "";
@@ -21,9 +37,7 @@
     margin: auto;
   }
 
-  @media screen and (max-width: 722px) {
-    font-size: 40px;
-  }
+
 
   h3 {
     margin: 0;
