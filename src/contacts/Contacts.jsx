@@ -29,14 +29,12 @@ export const Contacts = () => {
                 <div className={style.data}>
                     {contactsData.map(contact => {
                         return <div key={contact.id} className={style.contactsData}>
-                            <img style={{width: '50px', height: '50px', marginRight: '15px'}} src={contact.icon}/>
+                            <img className={style.img} src={contact.icon}/>
                             <h5 className={style.title}>{contact.title}</h5>
                             <div className={style.description}>{contact.description}</div>
                         </div>
                     })}
                 </div>
-
-
             </div>
 
         </div>

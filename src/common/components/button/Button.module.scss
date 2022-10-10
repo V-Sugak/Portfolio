@@ -8,6 +8,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 344px) {
+    height: 45px;
+  }
 
   .btn {
     /*  @include btn(45px);*/
@@ -26,15 +29,9 @@
     position: relative;
     overflow: hidden;
     transition: 1s;
-
-    @media screen and (max-width: 603px) {
-      font-size: 14px;
-    }
-    @media screen and (max-width: 517px) {
-      font-size: 12px;
-    }
-    @media screen and (max-width: 344px) {
-      font-size: 10px;
+    @media screen and (max-width: 390px) {
+      font-size: 13px;
+      line-height: 35px;
     }
 
     &::before,

@@ -54,8 +54,9 @@
       @media screen and (max-width: 517px) {
         font-size: 12px;
       }
-      @media screen and (max-width: 344px) {
+      @media screen and (max-width: 390px) {
         font-size: 10px;
+        line-height: 30px;
       }
 
       &::before,
@@ -98,6 +99,9 @@
 
     .description {
       color: $textColor;
+      @media screen and (max-width: 344px) {
+        font-size: 12px;
+      }
     }
 
     .link {
