@@ -15,7 +15,6 @@ export const Project = (props) => {
                 <div className={style.link}>
                     <a href={props.github}>Github</a>
                 </div>
-
             </p>
         </div>
     </div>

@@ -7,6 +7,6 @@ export const Skill = (props) => {
         <div className={style.icon}>
             <img src={props.icon} alt=""/>
         </div>
-        <div  className={style.title}>{props.title}</div>
+        <div className={style.title}>{props.title}</div>
     </div>
 }

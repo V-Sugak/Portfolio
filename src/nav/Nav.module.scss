@@ -1,11 +1,9 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .nav {
-  /*border: 1px solid;*/
-  width: 30%;
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
+  @include flex(row, space-between);
+  @include proportions(30%, 40px);
   margin-right: 50px;
   @media screen and (max-width: 900px) {
     width: 40%;
@@ -26,12 +24,9 @@
   }
 
   a {
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    color: $titleTextColor;
-    font-size: 20px;
+    @include text($titleTextColor, 20px, 700);
     line-height: 1.7;
-    font-weight: 700;
+    text-decoration: none;
     cursor: pointer;
     @media screen and (max-width: 900px) {
       font-size: 18px;

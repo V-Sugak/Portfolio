@@ -1,11 +1,10 @@
 @import "../../styles/sass/variables";
+@import "../../styles/sass/mixins";
 
 .title {
   margin: 0 0 15px;
   padding: 0 0 15px;
-  font-size: 45px;
-  color: $titleTextColor;
-  font-weight: 800;
+  @include text($titleTextColor, 45px, 800);
   line-height: 1.2;
   position: relative;
   @media screen and (max-width: 775px) {

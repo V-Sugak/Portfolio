@@ -1,4 +1,5 @@
 @import "../common/styles/sass/variables.scss";
+@import "../common/styles/sass/mixins.scss";
 
 .mainBlock {
   padding: 80px 0;
@@ -7,22 +8,17 @@
   flex-wrap: wrap;
 
   .mainContainer {
-    display: flex;
-    justify-content: space-between;
+    @include flex(row, space-between);
     @media screen and (max-width: 1347px) {
       justify-content: center;
     }
 
     .descriptionContainer {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      @include flex(column, center);
 
       .titleContainer {
         .title {
-          color: $titleTextColor;
-          font-weight: 700;
-          font-size: 55px;
+          @include text($titleTextColor, 55px, 700);
           line-height: 0.5;
           @media screen and (max-width: 775px) {
             font-size: 45px;
@@ -45,9 +41,7 @@
         }
 
         .text {
-          color: $primaryTextColor;
-          font-size: 45px;
-          font-weight: 700;
+          @include text($primaryTextColor, 45px, 700);
           @media screen and (max-width: 775px) {
             font-size: 40px;
           }
@@ -72,25 +66,17 @@
 
     .photoContainer {
       width: 400px;
-      /* height: 560px;*/
-      display: flex;
-      justify-content: center;
+      @include flex(row, center);
       @media screen and (max-width: 1347px) {
         margin-top: 30px;
       }
 
       .photo {
-        width: 400px;
-        height: 560px;
+        @include proportions(340px, 500px);
         border: 12px solid $bgSecondColor;
         @media screen and (max-width: 560px) {
-          width: 90%;
-          height: 75%;
+          @include proportions(90%, 75%);
         }
-        @media screen and (max-width: 517px) {
-        /*  height: 60%;*/
-        }
-
       }
     }
 

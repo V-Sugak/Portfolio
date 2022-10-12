@@ -1,20 +1,20 @@
 import React from "react";
 import style from "./Skills.module.scss"
-import styleContainer from "./../common/styles/Container.module.css"
+import styleContainer from "../common/styles/Container.module.scss"
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
-import js from "./icons/js.png";
-import ts from "./icons/typescript.png";
-import react from "./icons/react.png";
-import redux from "./icons/redux.png";
-import css from "./icons/css.png";
-import html from "./icons/html.png";
-import formik from "./icons/formik.png";
-import tests from "./icons/tests.png";
-import restAPI from "./icons/restAPI.png";
-import mui from "./icons/mui.png";
-import StoryBook from "./icons/StoryBook.png";
-import git from "./icons/git.png";
+import js from "../assets/image/icons-skills/js.png";
+import ts from "../assets/image/icons-skills/typescript.png";
+import react from "../assets/image/icons-skills/react.png";
+import redux from "../assets/image/icons-skills/redux.png";
+import css from "../assets/image/icons-skills/css.png";
+import html from "../assets/image/icons-skills/html.png";
+import formik from "../assets/image/icons-skills/formik.png";
+import tests from "../assets/image/icons-skills/tests.png";
+import restAPI from "../assets/image/icons-skills/restAPI.png";
+import mui from "../assets/image/icons-skills/mui.png";
+import StoryBook from "../assets/image/icons-skills/StoryBook.png";
+import git from "../assets/image/icons-skills/git.png";
 
 const skills = [
     {id: 1, title: "JavaScript", icon: js},
@@ -32,7 +32,6 @@ const skills = [
 ]
 
 export const Skills = () => {
-
     return <div className={style.skillsBlock}>
         <div className={`${styleContainer.container}  ${style.skillsContainer}`}>
             <Title title={'Skills'}/>

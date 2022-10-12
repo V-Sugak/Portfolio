@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Main.module.scss";
-import styleContainer from "./../common/styles/Container.module.css";
-import photo from "./myPhoto.jpg"
+import styleContainer from "../common/styles/Container.module.scss";
+import photo from "../assets/image/myPhoto.jpg"
 import {Button} from "../common/components/button/Button";
 
 export const Main = () => {

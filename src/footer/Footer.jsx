@@ -1,9 +1,9 @@
 import style from "./Footer.module.scss";
 import React from "react";
-import styleContainer from "../common/styles/Container.module.css";
-import vk from "./icon-social/vk.svg"
-import instagram from "./icon-social/insta.svg"
-import linkedin from "./icon-social/linkedin.svg"
+import styleContainer from "../common/styles/Container.module.scss";
+import vk from "../assets/image/icons-footer/vk.svg"
+import instagram from "../assets/image/icons-footer/insta.svg"
+import linkedin from "../assets/image/icons-footer/linkedin.svg"
 
 const social = [
     {id: 1, image: vk, href: 'https://vk.com/id289699152'},
@@ -11,7 +11,6 @@ const social = [
     {id: 1, image: linkedin, href: 'https://www.linkedin.com/in/viktoryia-sugak-0b2579223/'},
 
 ]
-
 
 export const Footer = () => {
     return <div className={style.footerBlock}>

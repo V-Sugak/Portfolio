@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./WorkingConditions.module.scss"
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import {Title} from "../common/components/title/Title";
 import {Button} from "../common/components/button/Button";
 
@@ -9,8 +9,6 @@ export const WorkingConditions = () => {
         <div className={`${styleContainer.container}  ${style.workingConditionsContainer}`}>
             <div><Title title={"Considering options for remote work"}/></div>
             <div className={style.button}><Button title={"Hire me"}/></div>
-
-
         </div>
     </div>
 }

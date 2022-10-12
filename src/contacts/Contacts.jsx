@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./Contacts.module.scss"
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import {Title} from "../common/components/title/Title";
-import phone from "./icon/phon.png";
-import email from "./icon/email.png";
+import phone from "../assets/image/icons-contacts/phon.png";
+import email from "../assets/image/icons-contacts/email.png";
 
 const contactsData = [
     {id: 1, icon: phone, title: "Phone:", description: "+375(33) 630 68 43"},
@@ -19,7 +19,7 @@ export const Contacts = () => {
                     <div className={style.contact}>
                         <input type="text" placeholder={'Email'}/>
                         <input type="text" placeholder={'Name'}/>
-                        <textarea name="" id="" cols="30" rows="10" placeholder={'Enter your message'}></textarea>
+                        <textarea placeholder={'Enter your message'}></textarea>
                     </div>
                     <div className={style.buttonContainer}>
                         <button type={'submit'} className={style.btn}>Send message</button>

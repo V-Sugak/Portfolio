@@ -1,0 +1,9 @@
+@import "./sass/mixins.scss";
+
+.container {
+  @include flex(row, space-between);
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  @include proportions(70%, 100%)
+}
