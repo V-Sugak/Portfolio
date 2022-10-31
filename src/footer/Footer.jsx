@@ -1,6 +1,5 @@
 import style from "./Footer.module.scss";
 import React from "react";
-import styleContainer from "../common/styles/Container.module.scss";
 import vk from "../assets/image/icons-footer/vk.svg"
 import instagram from "../assets/image/icons-footer/insta.svg"
 import linkedin from "../assets/image/icons-footer/linkedin.svg"
@@ -14,7 +13,7 @@ const social = [
 
 export const Footer = () => {
     return <div className={style.footerBlock}>
-        <div className={`${styleContainer.container}  ${style.footerContainer}`}>
+        <div className={style.container}>
             <div className={style.icons}>
                 {social.map(s => {
                     return <div key={s.id} className={style.icon}>

@@ -7,7 +7,8 @@
   min-height: 100vh;
   flex-wrap: wrap;
 
-  .mainContainer {
+  .container {
+    @include container();
     @include flex(row, space-between);
     @media screen and (max-width: 1347px) {
       justify-content: center;

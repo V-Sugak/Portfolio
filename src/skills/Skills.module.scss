@@ -6,7 +6,8 @@
   padding: 80px 0;
   min-height: 100vh;
 
-  .skillsContainer {
+  .container {
+    @include container();
     @include flex(column, flex-start);
 
     .skills {

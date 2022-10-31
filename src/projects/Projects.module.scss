@@ -5,8 +5,10 @@
   background-color: $bgColor;
   padding: 80px 0;
 
-  .projectsContainer {
+  .container {
+    @include container();
     @include flex(column, flex-start);
+
 
     .projects {
       width: 100%;

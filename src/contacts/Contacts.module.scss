@@ -5,7 +5,8 @@
   background-color: $bgColor;
   padding: 80px 0;
 
-  .contactsContainer {
+  .container {
+    @include container();
     @include flex(column, center);
 
     .contacts {

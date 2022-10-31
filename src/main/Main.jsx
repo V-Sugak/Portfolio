@@ -1,12 +1,11 @@
 import React from "react";
 import style from "./Main.module.scss";
-import styleContainer from "../common/styles/Container.module.scss";
 import photo from "../assets/image/myPhoto.jpg"
 import {Button} from "../common/components/button/Button";
 
 export const Main = () => {
     return <div className={style.mainBlock}>
-        <div className={`${styleContainer.container} ${style.mainContainer}`}>
+        <div className={style.container}>
             <div className={style.descriptionContainer}>
                 <div className={style.titleContainer}>
                     <h1 className={style.title}>Hello,</h1>

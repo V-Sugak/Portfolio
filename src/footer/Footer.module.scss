@@ -4,7 +4,8 @@
 .footerBlock {
   background-color: $bgSecondColor;
 
-  .footerContainer {
+  .container {
+    @include container();
     display: flex;
     flex-direction: column;
     align-items: center;

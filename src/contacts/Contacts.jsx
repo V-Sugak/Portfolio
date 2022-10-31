@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./Contacts.module.scss"
-import styleContainer from "../common/styles/Container.module.scss";
 import {Title} from "../common/components/title/Title";
 import phone from "../assets/image/icons-contacts/phon.png";
 import email from "../assets/image/icons-contacts/email.png";
@@ -12,7 +11,7 @@ const contactsData = [
 
 export const Contacts = () => {
     return <div className={style.contactsBlock}>
-        <div className={`${styleContainer.container}  ${style.contactsContainer}`}>
+        <div className={style.container}>
             <Title title={'Contact'}/>
             <div className={style.contacts}>
                 <form className={style.contactsForm}>

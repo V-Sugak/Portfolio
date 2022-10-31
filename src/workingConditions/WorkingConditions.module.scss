@@ -6,7 +6,8 @@
   background-color: $bgSecondColor;
 }
 
-.workingConditionsContainer {
+.container {
+  @include container();
   @include flex(column, center);
 
   .button {
